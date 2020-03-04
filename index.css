@@ -163,104 +163,167 @@ body {
 
 /*Third Section*/
 
-.third-section {
-    background-color: #F4F6F7;
-    min-height: 205px;
-    min-width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.experience_banner {
+height: 205px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #F4F6F7;
 }
 
-.third-section--box {
-    max-width: 135px;
-    max-height: 85px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    padding: 60px;
+.experience_item {
+    text-align: left;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
-.third-section--line {
-    max-width: 1440px;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-}
-
-.container-three--number {
+.experience_item__heading--black {
+    font-style: normal;
+    font-weight: 400;
     font-size: 46px;
+    line-height: 63px;
+    color: #13253A;
+    margin: 0;
+    display: inline-flex;
 }
 
-.third-section--textfield {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+.experience_item__heading--orange {
+    font-size: 46px;
+    color: #FF7F57;
 }
 
-.container-three-text {
-    margin-top: 0;
+.experience_item__text {
     font-size: 16px;
     color: #2557AB;
-    align-self: center;
 }
 
-.fa-plus {
-    color: #FF7F57;
-    font-size: 35px;
-    font-weight: lighter;
-    margin: 5px;
-}
 
 /*Forth Section*/
 
-.forth-section {
-    margin: 0;
-    background-color: white;
-    margin-top: 40px;
-}
-
-.forth-container {
-    max-width: 970px;
-    max-height: 500px;
+.about {
+    height: 699px;
+    width: 1440px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.paragraph-left {
+.about_banner {
+    width: 970px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0px;
 }
 
-.paragraph-left--intro {
-    max-width: 370px;
-    font-size: 20px;
-    font-style: italic;
-    text-align: left;
-    line-height: 1.5;
+.about_right__headings {
+    align-content: center;
 }
 
-.paragraph-left--body {
-    max-width: 370px;
-    font-size: 16px;
-    font-style: normal;
-    text-align: left;
-    line-height: 1.5;
+.about_right__heading--black {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 34px;
 }
 
-.paragraph-right {
-}
-
-.paragraph-right--top {
+.about_right__heading--blue {
+    padding-left: 20px;
+    margin-bottom: 0;
     font-size: 16px;
     color: #2557AB;
 }
 
-.paragraph-right--heading {
+.about_text {
+    display: flex;
+}
+
+.about_left {
+    line-height: 1.5;
+}
+
+.about_left__heading--italic {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.about_right {
+    margin-right: 30px;
+    margin-left: 40px;
+    padding-top: 0;
+    line-height: 1.5;
+}
+
+.about_right__logo--image {
+    width: 970px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.linebreak {
+    min-width: 1170px;
+    margin-top: 100px;
+    border: #dce2e6 1px solid;
+}
+
+/*Fifth section Starts here*/
+
+.relax {
+    height: 700px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relax_container {
+    height: 450px;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-bottom: 0;
+}
+
+.relax_item {
+    display: flex;
+    align-content: flex-start;
+    max-width: 600px;
+}
+
+.relax_item__heading {
     font-size: 38px;
+    font-weight: bold;
+    align-self: flex-start;
+    max-width: 370px;
+}
+
+.relax_item__paragraph {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    max-width: 470px;
+    align-self: flex-start;
+}
+
+.fa-check {
+    color: #FF7F57;
+}
+
+.relax_item__list {
+    font-size: 15px;
     font-weight: bold;
 }
 
-.paragraph-right--body {
-
+.relax_item__image {
+    align-self: flex-end;
 }
+
+
+
 
