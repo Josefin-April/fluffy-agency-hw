@@ -172,18 +172,46 @@
     </section>
 
     <!--Seventh Section-->
-    <section class="contact">
-        <div class="contact_container">
-            <div class="contact_item">
-                <h3 class="contact_item__heading">Contact Us</h3>
-            </div>
+    <footer class="contact" id="contact">
+        <div class="content_container">
+            <h2 class="subtitle">Contact Us</h2>
+            <form class="contact__form">
+                <label class="label__element" for="name">Full name</label>
+                <input class="input__element"
+                    type="text"
+                    name="name"
+                    id="name" 
+                    required
+                    placeholder="Ram Kaji">
+
+                <label class="label__element"
+                    for="email">Your Email Address
+                </label>
+                <input class="input__element"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="hello@lastdoor.store">
+                
+                <label class="label__element"
+                    for="message">Your message
+                </label>
+                <textarea class="input__element"
+                name="message"
+                id="message"
+                cols="20"
+                rows="5"
+                required
+                placeholder="Type your message here.."></textarea>
+
+                <button class="buttonbottom" type="submit">Submit Your Message</button>
+            </form>
         </div>
-
-        
-    </section>
-    <section class="copyright">
-
-    </section>
+    </footer>
     
+    <div class="copyright-box">
+        <p class="copyright">Copyright &copy; 2018 lastdoor.store</p>
+    </div> 
 </body>
 </html>
